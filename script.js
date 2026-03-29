@@ -3,7 +3,7 @@ let  min = document.getElementById('min')
 let  sec = document.getElementById('sec')
 
 setInterval(()=>{
-    let currentTime = new Date()
+let currentTime = new Date()
 
 console.log(currentTime.getSeconds());
 
